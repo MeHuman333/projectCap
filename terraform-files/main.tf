@@ -2,7 +2,7 @@ resource "aws_instance" "test-server" {
   ami           = "ami-0a0e5d9c7acc336f1"
   instance_type = "t2.micro"
   key_name      = "keypair2"
-  vpc_security_group_ids = ["sg-0b3b8f6dde6eb5a55"]  # Updated security group ID
+  vpc_security_group_ids = ["sg-0b2cdab010111968c"]  # Updated security group ID
 
 
   connection {
