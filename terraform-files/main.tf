@@ -3,6 +3,7 @@ resource "aws_instance" "test-server" {
   instance_type = "t2.micro"
   key_name      = "keypair2"
   vpc_security_group_ids = ["sg-0b2cdab010111968c"]  # Updated security group ID
+  subnet_id     = subnet-045f7591518975b08
 
 
   connection {
