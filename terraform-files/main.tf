@@ -2,8 +2,8 @@ resource "aws_instance" "test-server" {
   ami           = "ami-0a0e5d9c7acc336f1"
   instance_type = "t2.micro"
   key_name      = "keypair2"
-  vpc_security_group_ids = ["sg-061cb905e9260d542"]  # Updated security group ID
-  subnet_id     = "subnet-07824c9539dd6baed"  # Ensure this subnet ID is in vpc-0d4f69f9efe538ba8
+  vpc_security_group_ids = ["sg-0b3b8f6dde6eb5a55"]  # Updated security group ID
+
 
   connection {
     type        = "ssh"
